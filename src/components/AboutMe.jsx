@@ -26,23 +26,23 @@ const AboutMe = () => {
                         JavaScript
                     </li>
                     <li>
-                        <img src={`${logoFolder}/React.svg`} className="logo"/>
+                        <img src="imgs/React.svg" className="logo"/>
                         React
                     </li>
                     <li>
-                        <img src={`${logoFolder}/MongoDB.svg`} className="logo"/>
+                        <img src="imgs/MongoDB.svg" className="logo"/>
                         MongoDB
                     </li>
                     <li>
-                        <img src={`${logoFolder}/NodeJS.svg`} className="logo"/>
+                        <img src="imgs/NodeJS.svg" className="logo"/>
                         NodeJS
                     </li>
                     <li>
-                        <img src={`${logoFolder}/Git.svg`} className="logo"/>
+                        <img src="imgs/Git.svg" className="logo"/>
                         Git
                     </li>
                     <li>
-                        <img src={`${logoFolder}/Figma.svg`} className="logo"/>
+                        <img src="imgs/Figma.svg" className="logo"/>
                         Figma
                     </li>
                 </ul>
