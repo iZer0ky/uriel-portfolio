@@ -1,0 +1,35 @@
+.menu-wrapper{
+    width: 100%;
+    background-color: green;
+    position: sticky;
+    top: 0;
+}
+
+.menu-wrapper h1{
+    margin: 0px;
+    padding: 4px;
+}
+
+.menu-wrapper h2{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 6px;
+}
+
+nav{
+    display:flex;
+    border: 2px solid green;
+    width: 100%;
+    text-align:left;
+    align-items: center;
+}
+
+.navbar-content{
+    position:absolute;
+    right: 0px;
+    text-align:center;
+}
+
+.navbar-article{
+    padding: 10px;;
+}
