@@ -3,46 +3,27 @@
   text-align: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
 .content {
   margin-top: 2rem;
   margin-left: 4rem;
   margin-right: 4rem;
 }
 
-
 h3 {
   font-size: 24px;
   margin-top: 2px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 h4 {
   font-size: 20px;
   margin: 1px;
 }
+.logo-big {
+  width: 50px;
+  height: 50px;
+}
+
 .logo {
-  max-width: 30px;
-  max-height: 30px;
+  width: 30px;
+  height: 30px;
 }

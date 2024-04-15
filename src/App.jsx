@@ -1,6 +1,7 @@
 
 import './App.css'
 import AboutMe from './components/AboutMe'
+import Contact from './components/Contact'
 import Menu from './components/Menu'
 import Portfolio from './components/Portfolio'
 
@@ -13,6 +14,8 @@ function App() {
         <AboutMe />
         <Portfolio />
       </div>
+      <Contact />
+
     </>
   )
 }

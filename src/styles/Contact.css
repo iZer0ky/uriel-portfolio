@@ -1,0 +1,19 @@
+#contact-info{
+    margin-top: 30px;
+    background-color: rgba(132, 219, 219, 20%);
+    bottom: 0px;
+    display:flex;
+    flex-direction: row;
+}
+
+#contact-info ul {
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
