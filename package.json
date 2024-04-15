@@ -2,7 +2,6 @@
   "name": "uriel-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/iZer0ky/uriel-portfolio",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
