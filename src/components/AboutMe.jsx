@@ -1,3 +1,5 @@
+import logoFolder from "../constants/logoFolder";
+
 
 const AboutMe = () => {
     return(
@@ -15,6 +17,37 @@ const AboutMe = () => {
 
             Mis objetivos son ampliar mis habilidades como desarrollador, mientras aporto con mis conocimientos a la empresa, y también deseo recibirme en la carrera de Ingeniería en Informática.
             </p>
+
+            <h4>Tecnologías que manejo</h4>
+            <div>
+                <ul> 
+                    <li>
+                        <img src={`${logoFolder}/JavaScript.svg`} className="logo"/>
+                        JavaScript
+                    </li>
+                    <li>
+                        <img src={`${logoFolder}/React.svg`} className="logo"/>
+                        React
+                    </li>
+                    <li>
+                        <img src={`${logoFolder}/MongoDB.svg`} className="logo"/>
+                        MongoDB
+                    </li>
+                    <li>
+                        <img src={`${logoFolder}/NodeJS.svg`} className="logo"/>
+                        NodeJS
+                    </li>
+                    <li>
+                        <img src={`${logoFolder}/Git.svg`} className="logo"/>
+                        Git
+                    </li>
+                    <li>
+                        <img src={`${logoFolder}/Figma.svg`} className="logo"/>
+                        Figma
+                    </li>
+                </ul>
+            </div>
+
         </div>
     )
 }
