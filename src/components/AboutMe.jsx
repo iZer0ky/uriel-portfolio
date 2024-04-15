@@ -2,6 +2,7 @@
 const AboutMe = () => {
     return(
         <div>
+            <h3>Sobre mí</h3>
             <p>
             ¡Buenas!
 

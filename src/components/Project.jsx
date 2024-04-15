@@ -3,7 +3,7 @@
 const Project = (article) => {
     return(
         <div className="project-article">
-            <p>{article.name}</p>
+            <p className="article-title">{article.name}</p>
             <img src={article.img} referrerpolicy="no-referrer"/>
             <p>{article.description}</p>
             <a href={article.source} target="_blank">Source</a> 
