@@ -22,7 +22,7 @@ const AboutMe = () => {
             <div>
                 <ul> 
                     <li>
-                        <img src={`${logoFolder}/JavaScript.svg`} className="logo"/>
+                        <img src="imgs/JavaScript.svg" className="logo"/>
                         JavaScript
                     </li>
                     <li>
