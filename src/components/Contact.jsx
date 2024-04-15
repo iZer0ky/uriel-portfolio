@@ -2,7 +2,7 @@ import "../styles/Contact.css";
 
 const Contact = () => {
     return(
-        <div id="contact-info">
+        <div id="contact-footer">
             <footer>
                 <ul id="contact-list">
                     <li>

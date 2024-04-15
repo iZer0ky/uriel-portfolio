@@ -24,16 +24,10 @@
 
 .project-article img{
     max-width: 600px;
-    filter:brightness(70%);
 }
 
 .article-title {
     font-size: 24px;
     margin: 5px;
     margin-bottom: 10px;
-}
-
-.article-links{
-    position: inherit;
-    bottom: 0px;
 }

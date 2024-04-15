@@ -9,9 +9,9 @@ const Menu = () => {
                 <h2>Front-End Web Developer</h2>
             </div>
             <div className="navbar-content">
-                <span className='navbar-article'>Sobre mí</span>
-                <span className='navbar-article'>Mis Proyectos</span>
-                <span className='navbar-article'>Contacto</span>
+                <a href="#about" className='navbar-article'>Sobre mí</a>
+                <a href="#projects" className='navbar-article'>Mis Proyectos</a>
+                <a href="#contact-footer" className='navbar-article'>Contacto</a>
             </div>
         </nav>
     </div>
