@@ -1,11 +1,12 @@
-.project-wrapper {
+.project-list-wrapper {
     display:flex;
 }
 
 .project-article {
-    border:  2px red solid;
+    border:  1px black solid;
+    background: linear-gradient(75deg,#2f3c68,#46274a);
     max-width: 600px;
-    border-radius: 30px;
+    border-radius: 3px;
     padding: 20px;
     padding-top: 10px;
     margin: 10px;
@@ -17,16 +18,22 @@
     padding-left: 10px;
     padding-right: 10px;
     margin: 5px;
-    border: 1px blue solid;
-    border-radius: 50px;
+    border: 1px black solid;
+    border-radius: 5px;
 }
 
 .project-article img{
     max-width: 600px;
+    filter:brightness(70%);
 }
 
 .article-title {
     font-size: 24px;
     margin: 5px;
     margin-bottom: 10px;
+}
+
+.article-links{
+    position: inherit;
+    bottom: 0px;
 }

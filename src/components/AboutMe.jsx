@@ -4,14 +4,16 @@ const AboutMe = () => {
     return(
         <div>
             <h3>Sobre mí</h3>
-            <p>
+            <p id="introduction">
                 ¡Buenas!
                 <br />
-                Me llamo Uriel, tengo 21 años, soy Técnico en Informática Personal y Profesional. Estudio Ingeniería en Informática y actualmente me enfoco en el desarrollo web, más específicamente en el área del Front End; aspirando a ser Full-Stack. 
+                Me llamo Uriel, tengo 21 años, y soy Técnico en Informática Personal y Profesional. Estudio Ingeniería en Informática y actualmente me enfoco en el desarrollo web, más específicamente en el área del Front End; aspirando a ser Full-Stack. 
                 <br /> <br /> 
-                Me gusta asegurar la buena calidad y funcionamiento de mis proyectos, estando dispuesto a rehacerlos en pos de un mejor producto. Utilizo aplicaciones como Figma para armar esquemas visuales que ayuden a poner en orden mis ideas, así como también para compartir mis ideas y diseños. Estaría encantado de intercambiar feedback respecto al código con mis compañeros de trabajo.
+                Me gusta asegurar la buena calidad y funcionamiento de mis proyectos, estando dispuesto a rehacerlos en pos de un mejor producto. <br />
+                Utilizo aplicaciones como Figma para armar esquemas visuales que ayuden a poner en orden mis ideas, así como también para compartir mis ideas y diseños. Estaría encantado de intercambiar feedback respecto al código con mis compañeros de trabajo.
                 <br /> <br /> 
-                Mi meta es continuar expandiendo mis habilidades como programador mientras avanzo con mi carrera universitaria en Ingeniería en Informática. Mi objetivo principal es establecer una trayectoria profesional sólida, aprovechando cada experiencia para crecer tanto personal como profesionalmente.
+                Mi meta es continuar expandiendo mis habilidades como programador mientras avanzo con mi carrera universitaria en Ingeniería en Informática. <br />
+                Mi objetivo principal es establecer una trayectoria profesional sólida, aprovechando cada experiencia para crecer tanto personal como profesionalmente.
             </p>
 
             <h4>Tecnologías que manejo</h4>

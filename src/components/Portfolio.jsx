@@ -3,10 +3,10 @@ import Project from './Project';
 
 const Portfolio = () => {
     return(
-    <>
+    <div id="project-wrapper">
             <h3>Mis Proyectos Personales</h3>
             
-            <div className="project-wrapper">
+            <div className="project-list-wrapper">
 
                 <Project 
                         name="El Bazar Arcoíris"
@@ -25,7 +25,7 @@ const Portfolio = () => {
                 /> 
 
             </div>
-    </>
+    </div>
     );
 }
 

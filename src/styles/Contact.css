@@ -1,15 +1,27 @@
 #contact-info{
     margin-top: 30px;
-    background-color: rgba(132, 219, 219, 20%);
+    background-image: linear-gradient(#060f2e,#030715);
     bottom: 0px;
     display:flex;
     flex-direction: row;
 }
 
+#contact-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
 #contact-info ul {
     display:flex;
     flex-direction: row;
     list-style-type: none;
+}
+
+#contact-info li {
+    margin: 0px;
+    margin-right: 15px;
 }
 
 footer img {
