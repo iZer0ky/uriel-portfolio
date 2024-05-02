@@ -1,17 +1,16 @@
-import '../styles/Menu.css'
 
 const Menu = () => {
     return(
-    <div className="menu-wrapper">
-        <nav>
-            <div className="logo-page">
-                <h1>Uriel Pasquale</h1>
-                <h2>Front-End Web Developer</h2>
+    <div className="sticky top-0 bg-black">
+        <nav className='flex'>
+            <div className="flex-auto font-bold">
+                <h1 className='text-base sm:text-2xl'>Uriel Pasquale</h1>
+                <h2 className='text-xs sm:text-base'>Front-End Web Developer</h2>
             </div>
-            <div className="navbar-content">
-                <a href="#about" className='navbar-article'>Sobre mí</a>
-                <a href="#projects" className='navbar-article'>Mis Proyectos</a>
-                <a href="#contact-footer" className='navbar-article'>Contacto</a>
+            <div className="pr-5 place-self-center">
+                <a href="#about" className="mx-2 hover:text-blue-500">Sobre mí</a>
+                <a href="#projects" className="mx-2 hover:text-blue-500">Mis Proyectos</a>
+                <a href="#contact-footer" className="mx-2 hover:text-blue-500">Contacto</a>
             </div>
         </nav>
     </div>

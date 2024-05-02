@@ -1,12 +1,11 @@
-import '../styles/Portfolio.css'
 import Project from './Project';
 
 const Portfolio = () => {
     return(
-    <div id="projects">
-            <h3>Mis Proyectos Personales</h3>
+    <div id="projects" className="mx-5">
+            <h3 className='my-3 text-2xl font-bold text-center'>Mis Proyectos Personales</h3>
             
-            <div className="project-list-wrapper">
+            <div className="flex flex-col sm:flex-row">
 
                 <Project 
                         name="El Bazar Arcoíris"

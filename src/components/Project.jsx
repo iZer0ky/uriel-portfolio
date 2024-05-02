@@ -1,14 +1,13 @@
 
-
 const Project = (article) => {
     return(
-        <div className="project-article">
-            <p className="article-title">{article.name}</p>
-            <img src={article.img} referrerPolicy="no-referrer"/>
-            <p>{article.description}</p>
-            <div className="article-links">
-                <a href={article.source} target="_blank">Source</a> 
-                <a href={article.page} target="_blank">Page</a>
+        <div className="flex flex-col border rounded m-5 text-center">
+            <p className="text-lg">{article.name}</p>
+            <img src={article.img} className="size-full px-5 py-3" referrerPolicy="no-referrer"/>
+            <p className="m-3">{article.description}</p>
+            <div className="flex justify-around divide-x-2">
+                <a href={article.source} target="_blank" className="border-t w-1/2 hover:bg-blue-500">Source</a> 
+                <a href={article.page} target="_blank" className="border-t w-1/2 hover:bg-blue-500">Page</a>
             </div>
         </div>
     )

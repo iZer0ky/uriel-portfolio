@@ -1,5 +1,3 @@
-
-import './App.css'
 import AboutMe from './components/AboutMe'
 import Contact from './components/Contact'
 import Menu from './components/Menu'
@@ -9,16 +7,16 @@ import Welcome from './components/Welcome'
 function App() {
 
   return (
-    <>
+    <div className='bg-gray-800 font-sans text-white'>
       <Menu />
-      <div className="content">
+      <div>
         <Welcome />
         <AboutMe />
         <Portfolio />
       </div>
       <Contact />
 
-    </>
+    </div>
   )
 }
 
