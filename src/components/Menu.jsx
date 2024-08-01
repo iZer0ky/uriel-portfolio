@@ -5,7 +5,7 @@ const Menu = () => {
         <nav className='flex'>
             <div className="flex-auto font-bold">
                 <h1 className='text-base sm:text-2xl'>Uriel Pasquale</h1>
-                <h2 className='text-xs sm:text-base'>Front-End Web Developer</h2>
+                <h2 className='text-xs sm:text-base'>Full Stack Web Developer</h2>
             </div>
             <div className="pr-5 place-self-center">
                 <a href="#about" className="mx-2 hover:text-blue-500">Sobre mí</a>
